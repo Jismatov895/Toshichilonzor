@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toshichilonzor", "Toshichilonzor\Toshichilonzor.csproj", "{1053A137-F90F-475D-A142-C9C7C2BB2BA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Toshichilonzor", "Toshichilonzor\Toshichilonzor.csproj", "{1053A137-F90F-475D-A142-C9C7C2BB2BA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToshiChilonzor.Data", "ToshiChilonzor.Data\ToshiChilonzor.Data.csproj", "{3F3E4B00-92F5-41EF-9B49-B5E2277A5EBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToshiChilonzor.Service", "ToshiChilonzor.Service\ToshiChilonzor.Service.csproj", "{4F86B19D-4835-4E13-87CE-692DB96987FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToshiChilonzor.Domain", "ToshiChilonzor.Domain\ToshiChilonzor.Domain.csproj", "{20F08BC0-F7D2-435C-9EE9-0D04ADD34FBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{1053A137-F90F-475D-A142-C9C7C2BB2BA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1053A137-F90F-475D-A142-C9C7C2BB2BA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1053A137-F90F-475D-A142-C9C7C2BB2BA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F3E4B00-92F5-41EF-9B49-B5E2277A5EBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F3E4B00-92F5-41EF-9B49-B5E2277A5EBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F3E4B00-92F5-41EF-9B49-B5E2277A5EBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F3E4B00-92F5-41EF-9B49-B5E2277A5EBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F86B19D-4835-4E13-87CE-692DB96987FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F86B19D-4835-4E13-87CE-692DB96987FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F86B19D-4835-4E13-87CE-692DB96987FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F86B19D-4835-4E13-87CE-692DB96987FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20F08BC0-F7D2-435C-9EE9-0D04ADD34FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20F08BC0-F7D2-435C-9EE9-0D04ADD34FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20F08BC0-F7D2-435C-9EE9-0D04ADD34FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20F08BC0-F7D2-435C-9EE9-0D04ADD34FBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

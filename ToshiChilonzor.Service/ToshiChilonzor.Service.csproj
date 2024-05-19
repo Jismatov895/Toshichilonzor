@@ -7,11 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DTOs\" />
     <Folder Include="Mappers\" />
     <Folder Include="Helpers\" />
     <Folder Include="Exceptions\" />
     <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ToshiChilonzor.Domain\ToshiChilonzor.Domain.csproj" />
   </ItemGroup>
 
 </Project>
